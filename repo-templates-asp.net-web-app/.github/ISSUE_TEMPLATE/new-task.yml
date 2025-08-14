@@ -1,0 +1,60 @@
+﻿# .github/ISSUE_TEMPLATE/new-task.yml
+name: "New Task"
+description: "Suggest the next step for this project."
+title: "New task"
+labels: ["enhancement"]
+assignees: []
+body:
+  - type: textarea
+    id: prerequisite_tasks
+    attributes:
+      label: "⬅️ Prerequesite Tasks"
+      description: |
+        List task IDs that must be completed before starting this task. Example: #1, #2
+    validations:
+      required: false
+
+  - type: textarea
+    id: required_files
+    attributes:
+      label: "📂 Required Files"
+      description: |
+        List files that must be present or modified for this task. Example: index.html, styles.css
+    validations:
+      required: false
+
+  - type: textarea
+    id: task_list
+    attributes:
+      label: "✅ Task List"
+      description: |
+        Provide a checklist of subtasks required to complete this task. Example: [ ] Subtask 1
+    validations:
+      required: false
+
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: "💯 Acceptance Criteria"
+      description: |
+        List the measurable criteria that must be met for this task to be considered complete. Example: [ ] Criteria 1
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "📝 Notes"
+      description: |
+        Additional context, clarifications, or related discussions for this task.
+    validations:
+      required: false
+
+  - type: textarea
+    id: references
+    attributes:
+      label: "🔗 References"
+      description: |
+        Add relevant links such as documentation, articles, or videos. Example: [Methods and functions that can be used](link)
+    validations:
+      required: false

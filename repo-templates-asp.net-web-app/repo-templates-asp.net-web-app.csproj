@@ -73,6 +73,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".github\ISSUE_TEMPLATE\bug-report.yml" />
+    <Content Include=".github\ISSUE_TEMPLATE\new-task.yml" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
